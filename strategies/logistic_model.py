@@ -5,5 +5,9 @@
 
 import numpy as np
 
+""" I will review whether it is viable to run stochastic gradient
+    descent logistic regression on stock market.
+"""
+
 def logi(new, last=None):
     pass
