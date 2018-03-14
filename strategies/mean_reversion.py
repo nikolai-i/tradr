@@ -23,4 +23,6 @@ def bot(exchange, alpha=0.3, days=5):
             count = 0
         diff = last - info.Close
         if count >= days:
-            yield np.sign(diff)
+            yield int(np.sign(diff))
+        else:
+            yield 0
